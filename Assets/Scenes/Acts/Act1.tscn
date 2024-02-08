@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://b7sn4avv1m21x"]
+
+[ext_resource type="Script" path="res://Assets/Scripts/Acts/Act1.cs" id="1_cmikv"]
+[ext_resource type="JSON" path="res://Assets/Data/Acts/Act 1.json" id="2_3cm7m"]
+
+[node name="Act1" type="Node2D"]
+script = ExtResource("1_cmikv")
+scenesJSON = ExtResource("2_3cm7m")
+
+[node name="EventTimer" type="Timer" parent="."]

@@ -1,0 +1,30 @@
+{
+	"scene": [
+		{
+			"id": 0,
+			"character": "Robin",
+			"dialogue": [
+				1,
+				0
+			],
+			"animation": -1,
+			"choices": 0,
+			"camera": "centre",
+			"next": 1,
+			"trigger": -1
+		},
+		{
+			"id": 1,
+			"character": "Robin",
+			"dialogue": [
+				1,
+				0
+			],
+			"emotion": "happy",
+			"animation": -1,
+			"choices": 2,
+			"next": 2,
+			"trigger": -1
+		}
+	]
+}

@@ -1,0 +1,15 @@
+res://Assets/Scenes/Main.tscn
+res://Assets/Scenes/Character/Character.tscn
+res://Assets/Scenes/Acts/Act1.tscn
+res://Assets/Scripts/Acts/Act1.cs
+res://Assets/Scripts/Managers/GameManager.cs
+res://Assets/Scenes/Managers/GameManager.tscn
+res://Assets/Scripts/Character/Character.cs
+res://Assets/Scenes/Managers/Textbox.tscn
+res://Assets/Themes/UITheme.tres
+res://Assets/Data/Acts/Act 1.json
+res://Assets/Scenes/Characters/Robin.tscn
+res://Assets/Scenes/Characters/Character.tscn
+res://Assets/Scripts/Character/Robin.cs
+res://Assets/Scripts/Managers/Textbox.cs
+res://Assets/Data/Dialogue/Characters/Robin.json

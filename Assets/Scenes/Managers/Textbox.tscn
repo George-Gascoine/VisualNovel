@@ -1,0 +1,67 @@
+[gd_scene load_steps=3 format=3 uid="uid://cg5ob8qpqi0hs"]
+
+[ext_resource type="Theme" uid="uid://cb7n5lgv62soo" path="res://Assets/Themes/UITheme.tres" id="1_oo148"]
+[ext_resource type="Script" path="res://Assets/Scripts/Managers/Textbox.cs" id="2_7ah83"]
+
+[node name="Textbox" type="Control"]
+texture_filter = 1
+layout_mode = 3
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("1_oo148")
+script = ExtResource("2_7ah83")
+
+[node name="Background" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -93.0
+offset_top = -75.0
+offset_right = 93.0
+offset_bottom = -21.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="TextContainer" type="MarginContainer" parent="Background"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -89.0
+offset_top = -40.0
+offset_right = 87.0
+offset_bottom = -4.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/margin_left = 2
+theme_override_constants/margin_top = 2
+theme_override_constants/margin_right = 2
+theme_override_constants/margin_bottom = 2
+
+[node name="Text" type="RichTextLabel" parent="Background/TextContainer"]
+texture_filter = 1
+layout_mode = 2
+bbcode_enabled = true
+
+[node name="NameContainer" type="MarginContainer" parent="Background"]
+layout_mode = 0
+offset_right = 185.0
+offset_bottom = 18.0
+theme_override_constants/margin_left = 2
+theme_override_constants/margin_top = 2
+theme_override_constants/margin_right = 2
+theme_override_constants/margin_bottom = 2
+
+[node name="Name" type="RichTextLabel" parent="Background/NameContainer"]
+layout_mode = 2
+bbcode_enabled = true

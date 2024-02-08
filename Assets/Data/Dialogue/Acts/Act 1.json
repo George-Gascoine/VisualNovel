@@ -1,0 +1,9 @@
+{
+    "trigger": {
+		"id": 0,
+		"character": "Player",
+		"dialogue": [1, 0],
+		"methodInfo": "AddCharacter",
+		"argument": "Robin"
+	}
+}	

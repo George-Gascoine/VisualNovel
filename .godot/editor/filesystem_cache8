@@ -1,0 +1,40 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1707406707
+icon.svg::CompressedTexture2D::4407908484589467151::1707384075::1707384079::1::::<><>::
+::res://Assets/::1707399709
+::res://Assets/Data/::1707385236
+::res://Assets/Data/Acts/::1707401605
+Act 1.json::JSON::-1::1707401605::0::1::::<><>::
+::res://Assets/Data/Dialogue/::1707386092
+::res://Assets/Data/Dialogue/Acts/::1707386106
+Act 1.json::JSON::-1::1707401136::0::1::::<><>::
+::res://Assets/Data/Dialogue/Characters/::1707385966
+Player.json::JSON::-1::1707386481::0::1::::<><>::
+Robin.json::JSON::-1::1707401573::0::1::::<><>::
+::res://Assets/Fonts/::1707399713
+m5x7.ttf::FontFile::565515392475676828::1701855494::1707399713::1::::<><>::
+::res://Assets/Scenes/::1707406707
+Main.tscn::PackedScene::7837791943038062169::1707401605::0::1::::<><>::uid://djwnmg1seuonn::::res://Assets/Sprites/Set/Bar.png
+::res://Assets/Scenes/Acts/::1707401605
+Act1.tscn::PackedScene::4670463622042704471::1707401605::0::1::::<><>::res://Assets/Scripts/Acts/Act1.cs<>res://Assets/Data/Acts/Act 1.json
+::res://Assets/Scenes/Characters/::1707406702
+Robin.tscn::PackedScene::8872425550355099348::1707406850::0::1::::<><>::res://Assets/Scripts/Character/Character.cs<>uid://dapowqgphr2mh::::res://Assets/Sprites/Characters/Robin/Happy.png
+::res://Assets/Scenes/Managers/::1707402235
+GameManager.tscn::PackedScene::3957378370672048792::1707401605::0::1::::<><>::res://Assets/Scripts/Managers/GameManager.cs
+Textbox.tscn::PackedScene::5256759344219506820::1707402235::0::1::::<><>::uid://cb7n5lgv62soo::::res://Assets/Themes/UITheme.tres<>res://Assets/Scripts/Managers/Textbox.cs
+::res://Assets/Scripts/::1707387771
+::res://Assets/Scripts/Acts/::1707402199
+Act1.cs::CSharpScript::-1::1707402199::0::1::::<>Node2D<>::
+::res://Assets/Scripts/Character/::1707406838
+Character.cs::CSharpScript::-1::1707406838::0::1::::<>Node2D<>::
+::res://Assets/Scripts/Managers/::1707406834
+GameManager.cs::CSharpScript::-1::1707406834::0::1::::<>Node<>::
+Textbox.cs::CSharpScript::-1::1707406519::0::1::::<><>::
+::res://Assets/Sprites/::1707386255
+::res://Assets/Sprites/Characters/::1707386294
+::res://Assets/Sprites/Characters/Robin/::1707386383
+Happy.png::CompressedTexture2D::7191117893088852323::1707386187::1707386383::1::::<><>::
+::res://Assets/Sprites/Set/::1707386383
+Bar.png::CompressedTexture2D::7837189060972733855::1707386185::1707386383::1::::<><>::
+::res://Assets/Themes/::1707399746
+UITheme.tres::Theme::4909933781899589146::1707399746::0::1::::<><>::uid://ib67ral44esq::::res://Assets/Fonts/m5x7.ttf
