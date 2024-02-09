@@ -2,7 +2,7 @@
 	"scene": [
 		{
 			"id": 0,
-			"character": "Robin",
+			"character": "Player",
 			"dialogue": [
 				1,
 				0
@@ -11,7 +11,7 @@
 			"choices": 0,
 			"camera": "centre",
 			"next": 1,
-			"trigger": -1
+			"trigger": 0
 		},
 		{
 			"id": 1,
@@ -23,7 +23,35 @@
 			"emotion": "happy",
 			"animation": -1,
 			"choices": 2,
+			"camera": "centre",
 			"next": 2,
+			"trigger": -1
+		},
+		{
+			"id": 2,
+			"character": "Player",
+			"dialogue": [
+				1,
+				1
+			],
+			"animation": -1,
+			"choices": 0,
+			"camera": "centre",
+			"next": 3,
+			"trigger": -1
+		},
+		{
+			"id": 3,
+			"character": "Robin",
+			"dialogue": [
+				1,
+				1
+			],
+			"emotion": "happy",
+			"animation": -1,
+			"choices": 2,
+			"camera": "centre",
+			"next": 4,
 			"trigger": -1
 		}
 	]

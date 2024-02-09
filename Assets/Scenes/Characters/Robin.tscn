@@ -41,6 +41,7 @@ script = ExtResource("1_if5kk")
 dialogueJSON = ExtResource("2_pnbpt")
 
 [node name="CharacterSprite" type="Sprite2D" parent="."]
+self_modulate = Color(0, 0, 0, 1)
 texture = ExtResource("2_6iv34")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]

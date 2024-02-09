@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://5qvqf6vdnvjr"]
+
+[ext_resource type="Script" path="res://Assets/Scripts/Character/Player.cs" id="1_1f6wm"]
+[ext_resource type="JSON" path="res://Assets/Data/Dialogue/Characters/Player.json" id="2_sbfyv"]
+
+[node name="Player" type="Node2D"]
+script = ExtResource("1_1f6wm")
+dialogueJSON = ExtResource("2_sbfyv")

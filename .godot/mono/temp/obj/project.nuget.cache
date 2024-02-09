@@ -1,15 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Sruh0Inm+iEj+kV+Q/RnjCZ6mFdXjH2VydkJBBkfxv5yxjCd7HBvaDI6vykp/X4ISFijAStVcZL33mJNIio7Fw==",
+  "dgSpecHash": "jw8BFT5qLPw2DjjrUtvI3JVzUy9lR15n8J/ixBdBk+7UC4FvUsY9oEog9kXSm5ovsYp3kp+65mS0PsVfA/sLbw==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\VisualNovel\\VisualNovel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Georg\\.nuget\\packages\\godot.sourcegenerators\\4.2.1\\godot.sourcegenerators.4.2.1.nupkg.sha512",
     "C:\\Users\\Georg\\.nuget\\packages\\godotsharp\\4.2.1\\godotsharp.4.2.1.nupkg.sha512",
-    "C:\\Users\\Georg\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\Georg\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.26\\microsoft.netcore.app.runtime.win-x64.6.0.26.nupkg.sha512",
-    "C:\\Users\\Georg\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.26\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.26.nupkg.sha512",
-    "C:\\Users\\Georg\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.26\\microsoft.aspnetcore.app.runtime.win-x64.6.0.26.nupkg.sha512"
+    "C:\\Users\\Georg\\.nuget\\packages\\godotsharpeditor\\4.2.1\\godotsharpeditor.4.2.1.nupkg.sha512",
+    "C:\\Users\\Georg\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

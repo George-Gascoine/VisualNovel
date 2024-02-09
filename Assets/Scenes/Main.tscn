@@ -3,9 +3,11 @@
 [ext_resource type="Texture2D" uid="uid://djwnmg1seuonn" path="res://Assets/Sprites/Set/Bar.png" id="1_fxcar"]
 
 [node name="Main" type="Node2D"]
+visible = false
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(320, 180)
+enabled = false
 
 [node name="Bar" type="Sprite2D" parent="."]
 position = Vector2(320, 308)

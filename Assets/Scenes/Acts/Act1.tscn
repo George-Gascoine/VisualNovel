@@ -8,3 +8,4 @@ script = ExtResource("1_cmikv")
 scenesJSON = ExtResource("2_3cm7m")
 
 [node name="EventTimer" type="Timer" parent="."]
+one_shot = true

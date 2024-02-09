@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VisualNovel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fe756570ca3d7faadcce87ae10589dfa819b4f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("VisualNovel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VisualNovel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

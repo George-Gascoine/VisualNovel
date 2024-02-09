@@ -16,3 +16,4 @@ C:\GitHub\VisualNovel\.godot\mono\temp\obj\Debug\VisualNovel.pdb
 C:\GitHub\VisualNovel\.godot\mono\temp\obj\Debug\VisualNovel.genruntimeconfig.cache
 C:\GitHub\VisualNovel\.godot\mono\temp\obj\Debug\ref\VisualNovel.dll
 C:\GitHub\VisualNovel\.godot\mono\temp\bin\Debug\Newtonsoft.Json.dll
+C:\GITHUB\VISUALNOVEL\.godot\mono\temp\obj\Debug\VisualNovel.sourcelink.json

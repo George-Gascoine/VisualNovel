@@ -3,10 +3,11 @@ using System;
 
 public partial class Textbox : Control
 {
-    public string FullText { get; set; }
-    private string CurrentText { get; set; } = "";
-    private int CurrentIndex { get; set; } = 0;
-    private float TypeSpeed { get; set; } = 0.1f; // Adjust this value to control the typing speed
+    public string character { get; set; }
+    public string fullText { get; set; }
+    private string currentText { get; set; } = "";
+    private int currentIndex { get; set; } = 0;
+    private float typeSpeed { get; set; } = 0.1f; // Adjust this value to control the typing speed
 
 	public RichTextLabel textLabel, nameLabel;
 	// Called when the node enters the scene tree for the first time.
@@ -20,11 +21,11 @@ public partial class Textbox : Control
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
 	public override void _Process(double delta)
 	{
-        if (CurrentIndex < FullText.Length)
+        if (currentIndex < fullText.Length)
         {
-            CurrentText += FullText[CurrentIndex];
-            textLabel.Text = CurrentText;
-            CurrentIndex++;
+            currentText += fullText[currentIndex];
+            textLabel.Text = currentText;
+            currentIndex++;
         }
         else
         {
@@ -32,8 +33,25 @@ public partial class Textbox : Control
         }
 
         // Wait for the next character
-        System.Threading.Thread.Sleep((int)(TypeSpeed * 1000));
+        System.Threading.Thread.Sleep((int)(typeSpeed * 1000));
 
     }
 
+    public void CompleteText() 
+    { 
+        currentIndex = fullText.Length;
+        textLabel.Text = fullText;
+    }
+
+    public void ClearText()
+    {
+        currentIndex = 0;
+        currentText = "";
+        textLabel.Text = currentText;
+    }
+
+    public void StartNewText()
+    {
+        SetProcess(true);
+    }
 }

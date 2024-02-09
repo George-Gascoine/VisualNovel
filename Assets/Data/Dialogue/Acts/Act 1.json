@@ -1,9 +1,14 @@
 {
     "trigger": {
 		"id": 0,
-		"character": "Player",
-		"dialogue": [1, 0],
-		"methodInfo": "AddCharacter",
+		"method": "LoadCharacter",
 		"argument": "Robin"
+		"triggerMethod": "Act1Load"
+	},
+	{
+		"id": 1,
+		"method": "LoadCharacter",
+		"argument": "Robin"
+		"triggerMethod": "Act1Load"
 	}
 }	

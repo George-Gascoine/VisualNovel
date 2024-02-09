@@ -1,8 +1,13 @@
-Timer
+AnimationPlayer
+AnimationTree
 RichTextLabel
+Camera2D
+Sprite2D
+ParallaxLayer
+ParallaxBackground
+Node2D
+CanvasLayer
+Timer
 MarginContainer
 Panel
 Container
-Camera2D
-AnimationPlayer
-Sprite2D

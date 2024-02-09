@@ -1,8 +1,16 @@
 {
-	"dialogue": {
-		"act": 1,
-		"id": 0,
-		"sprite": "Happy",
-		"text": "Oh, I didn't see you there!"
-	}
+	"dialogue": [
+		{
+			"act": 1,
+			"id": 0,
+			"text": "I slipped in while you were distracted with the camel race...",
+			"options": -1
+		},
+		{
+			"act": 1,
+			"id": 1,
+			"text": "Dealer's choice...",
+			"options": -1
+		}
+	]
 }

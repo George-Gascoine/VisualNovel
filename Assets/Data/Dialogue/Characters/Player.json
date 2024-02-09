@@ -1,8 +1,16 @@
 {
-    "dialogue": {
-        "act": 1,
-        "id": 0,
-        "text": "Oh, I didn't see you there!",
-        "options": -1
-    }
+	"dialogue": [
+		{
+			"act": 1,
+			"id": 0,
+			"text": "Oh, I didn't see you there",
+			"options": -1
+		},
+		{
+			"act": 1,
+			"id": 1,
+			"text": "Well, what'll it be?",
+			"options": -1
+		}
+	]
 }
